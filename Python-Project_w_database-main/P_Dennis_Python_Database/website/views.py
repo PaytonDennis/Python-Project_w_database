@@ -1,4 +1,4 @@
-from flask import Blueprint
+from flask import Blueprint, render_template
 
 #blueprint of application with roots
 
@@ -11,4 +11,4 @@ views = Blueprint('views', __name__)
 @views.route('/')
 #runs home when you go to /
 def home():
-    return "<h1>Test</h1>"
+    return render_template("home.html")
