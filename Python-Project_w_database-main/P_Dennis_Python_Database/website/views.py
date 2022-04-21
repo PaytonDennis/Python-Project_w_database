@@ -5,8 +5,6 @@ from flask import Blueprint, render_template
 #blueprint for flask application
 views = Blueprint('views', __name__)
 
-
-
 #decorator with root
 @views.route('/')
 #runs home when you go to /
