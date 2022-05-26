@@ -2,6 +2,7 @@
 #runs flask application from webserver
 from distutils.log import debug
 from website._init_ import create_app
+import requests
 
 app = create_app()
 
