@@ -9,6 +9,6 @@ app = create_app()
 #if we run file execute line
 if __name__ == '__main__':
     
-    #start application, run webserver, when changes made rerun web server
-    #debug=True debugs server evertime run
+    #start application, run web server, when changes made rerun web server
+    #debug=True debugs server every time run
     app.run(debug=True)
